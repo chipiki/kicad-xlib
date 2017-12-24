@@ -1,5 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP R_Small
+D Resistor, small symbol
+K r resistor
+$ENDCMP
+#
 $CMP V3S
 D The Allwinner V3s processor which integrates a single ARM Cortex-A7 CPU that operates at speed up to 1.2GHz with supporting numerous peripherals.
 K The SOC of allwinner v3s  using ARM cortex-a7
