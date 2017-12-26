@@ -5,58 +5,10 @@ D Enhanced single Cell Li-Battery and Power System Management IC
 K Enhanced single Cell Li-Battery and Power System Management IC
 $ENDCMP
 #
-$CMP C
-D Unpolarized capacitor
-K cap capacitor
-$ENDCMP
-#
-$CMP C_Small
-D Unpolarized capacitor
-K capacitor cap
-$ENDCMP
-#
-$CMP L
-D Inductor
-K inductor choke coil reactor magnetic
-$ENDCMP
-#
-$CMP LED
-D LED generic
-K led diode
-F ~
-$ENDCMP
-#
-$CMP LED_Small
-D LED, small symbol
-K led diode light-emitting-diode
-F ~
-$ENDCMP
-#
-$CMP L_Small
-D Inductor, small symbol
-K inductor choke coil reactor magnetic
-$ENDCMP
-#
-$CMP R
-D Resistor
-K r res resistor
-$ENDCMP
-#
-$CMP R_Small
-D Resistor, small symbol
-K r resistor
-$ENDCMP
-#
 $CMP V3S
 D The Allwinner V3s processor which integrates a single ARM Cortex-A7 CPU that operates at speed up to 1.2GHz with supporting numerous peripherals.
 K The SOC of allwinner v3s  using ARM cortex-a7
 F http://linux-sunxi.org/images/2/23/Allwinner_V3s_Datasheet_V1.0.pdf
-$ENDCMP
-#
-$CMP WC1602A
-D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
-K LCD 16x2 Alphanumeric Green Backlight
-F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
 #End Doc Library
